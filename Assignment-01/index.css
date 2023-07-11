@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Head Section  */
+.header-div {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 130px;
+    padding: 50px 100px 0 130px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.first-photo img {
+    width: 400px;
+    height: 505px;
+}
+
+.head {
+    color: #272727;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+.para {
+    margin: 25px 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+}
+
+.btn {
+    color: #FFF;
+    background: #E55473;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 23px;
+    border-style: none;
+}
+
+/* main section start from here */
+/* Hot-deal section */
+.deal {
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 140px 50px 170px;
+    margin-bottom: 80px;
+}
+
+.flower img {
+    width: 60%;
+}
+
+.text {
+    text-align: center;
+}
+
+#span {
+    color: #E55473;
+}
+
+/* Social : Instagram section start from here */
+.social {
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.rose img {
+    width: 22%;
+    padding: 0 13px 0 0;
+}
+/* Another deals section start from here */
