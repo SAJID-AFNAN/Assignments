@@ -103,8 +103,14 @@ body {
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-bottom: 90px;
-    padding: 40px 100px;
+    margin: 90px 210px 90px 200px ;
+    padding: 60px 100px;
+    text-align: center;
+    align-items: center;
+}
+.callus{
+    width: 60px;
+    margin-bottom: 20px;
 }
 
 
