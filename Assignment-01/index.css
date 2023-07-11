@@ -114,11 +114,6 @@ body {
     margin-bottom: 20px;
 }
 
-
-
-
-
-
 /* Hot-deal section start from here*/
 .deal {
     display: flex;
@@ -152,6 +147,43 @@ body {
     width: 22%;
     padding: 0 13px 0 0;
 }
+
+/* Extra Bonous section start from here */
+.Extra{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    justify-content: space-around;
+}
+#top{
+    text-align: center;
+}
+.bonous .instagram{
+    /* text-align: center; */
+}
+.yellow{
+
+}
+.star{
+    width: 110px;
+    padding: 0 40px 0 0;
+}
+.full{
+    border-radius: 200px 200px 200px 200px;
+    width: 240px;
+    height: 340px;
+    padding: 40px 40px 0 40px;
+    /* margin: 20px 10px; */
+}
+.lili{
+    
+}
+
+
+
+
+
 
 /* Another deals section start from here */
 .section {
