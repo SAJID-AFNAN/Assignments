@@ -104,12 +104,13 @@ body {
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0px 210px 90px 200px ;
+    margin: 0px 210px 90px 200px;
     padding: 60px 100px;
     text-align: center;
     align-items: center;
 }
-.callus{
+
+.callus {
     width: 60px;
     margin-bottom: 20px;
 }
@@ -149,41 +150,33 @@ body {
 }
 
 /* Extra Bonous section start from here */
-.Extra{
+.bonous {}
+
+.Extra {
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
-    margin: 30px;
+    margin: 80px;
     justify-content: space-around;
 }
-#top{
-    text-align: center;
-}
-.bonous .instagram{
-    /* text-align: center; */
-}
-.yellow{
 
+#top {
+    text-align: center;
+    font-size: 40px;
 }
-.star{
+
+.star {
     width: 110px;
-    padding: 0 40px 0 0;
+    background-color: bisque;
 }
-.full{
+
+.full {
     border-radius: 200px 200px 200px 200px;
     width: 240px;
     height: 340px;
-    padding: 40px 40px 0 40px;
+    padding: 0px 40px 30 40px;
     /* margin: 20px 10px; */
 }
-.lili{
-    
-}
-
-
-
-
-
 
 /* Another deals section start from here */
 .section {
