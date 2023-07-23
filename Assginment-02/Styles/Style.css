@@ -192,6 +192,110 @@ nav a {
     height: 300px;
 }
 
+/* Anothe section start from here  */
+.anime {
+    display: flex;
+    /* height: auto; */
+    gap: 150px;
+    padding: 0px 160px;
+}
+
+.anime-img .anime-1 {
+    width: 500px;
+    height: 450px;
+}
+
+.anime-img .anime-2 {
+    width: 230px;
+    height: 250px;
+    position: relative;
+    bottom: 155px;
+    left: 360px;
+    border: 1px solid blue;
+}
+
+.anime-contant {
+    padding-top: 70px;
+}
+
+/* Cartoon-Icon section start from here */
+.icon {
+    background: rgba(255, 66, 165, 0.03);
+}
+
+.icon-up {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 150px 20px 150px;
+}
+
+.icon-down {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 220px 80px 220px;
+
+}
+
+.icon-cartoon {
+    display: flex;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.icon-cartoon:hover {
+    border: 1px solid rgb(238, 103, 126);
+    color: rgb(239, 92, 117);
+}
+
+.icon-cartoon img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/* Footer section start from here */
+footer {
+    text-align: center;
+    padding: 120px 340px;
+    background-color: black;
+    color: white;
+}
+
+.games {
+    padding-left: 280px;
+}
+
+.footer-context {
+    display: flex;
+    gap: 65px;
+    padding: 20px 0;
+}
+
+.footer-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.footer-text {
+    display: flex;
+    gap: 40px;
+    padding: 20px 0 20px 70px;
+
+}
+
+
+
+
+
+
 
 
 
@@ -205,8 +309,13 @@ nav a {
 @media screen and (max-width:576px) {
 
     .nav-section,
-    nav ul {
+    nav ul,
+    .online-card {
         flex-direction: column;
+    }
+
+    .nav-section {
+        margin: 0px;
     }
 
     nav {
@@ -215,6 +324,7 @@ nav a {
 
     .gamer {
         text-align: left;
+        padding-left: 110px;
     }
 
     .banner {
@@ -249,10 +359,6 @@ nav a {
         font-size: 12px;
     }
 
-    .online-card {
-        flex-direction: column;
-    }
-
     .online-head {
         font-size: 24px;
     }
@@ -260,16 +366,83 @@ nav a {
     .online-games {
         padding: 10px 24px 10px 24px;
     }
-    .para{
+
+    .para {
         font-size: 12px;
     }
-    .cartoon-card{
+
+    .cartoon-card {
         padding: 0 36px 10px 37px;
         text-align: center;
     }
 
-    .cartoon-card img{
-        width: 300px ;
+    .cartoon-card img {
+        width: 300px;
         height: 350px;
+    }
+
+    .anime {
+        flex-direction: column-reverse;
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .anime-img .anime-1 {
+        width: 300px;
+        height: auto;
+    }
+
+    .anime-img .anime-2 {
+        width: 130px;
+        height: 150px;
+        position: relative;
+        bottom: 120px;
+        left: 120px;
+    }
+
+    .icon-up {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 20px;
+    }
+
+    .icon-down {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 43px;
+        gap: 10px;
+    }
+
+    .icon-cartoon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-cartoon p {
+        font-size: 12px;
+    }
+
+    footer {
+        padding: 20px 40px;
+    }
+
+    .games {
+        padding-left: 95px;
+    }
+
+    .footer-context {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    .footer-icon img {
+        width: 25px;
+        height: 25px;
+        margin-right: 25px;
+    }
+
+    .footer-text {
+        padding: 20px;
     }
 }
