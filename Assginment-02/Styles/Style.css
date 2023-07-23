@@ -169,22 +169,26 @@ nav a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.para{
+
+.para {
     color: #534C64;
     font-size: 16px;
     font-weight: 400;
 }
+
 .online-card {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
 }
-.cartoon-card{
+
+.cartoon-card {
     text-align: left;
-    margin-right:15px ;
+    margin-right: 15px;
     width: 260px;
 }
-.online-img{
+
+.online-img {
     height: 300px;
 }
 
@@ -209,18 +213,63 @@ nav a {
         text-align: center;
     }
 
-    .gamer {}
+    .gamer {
+        text-align: left;
+    }
 
     .banner {
         flex-direction: column-reverse;
     }
 
-    .banner-img {
-        width: 100vw;
+    .banner-img img {
+        width: 55vh;
+        padding: 0 25px;
     }
 
     .banner-contant {
         width: 300px;
         height: 400px;
+        padding: 0px 57px 0 70px;
+        text-align: left;
+    }
+
+    .banner-contant p {
+        font-size: 32px;
+    }
+
+    .banner-contant h1 {
+        font-size: 60px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    .non-button {
+        font-size: 12px;
+    }
+
+    .online-card {
+        flex-direction: column;
+    }
+
+    .online-head {
+        font-size: 24px;
+    }
+
+    .online-games {
+        padding: 10px 24px 10px 24px;
+    }
+    .para{
+        font-size: 12px;
+    }
+    .cartoon-card{
+        padding: 0 36px 10px 37px;
+        text-align: center;
+    }
+
+    .cartoon-card img{
+        width: 300px ;
+        height: 350px;
     }
 }
