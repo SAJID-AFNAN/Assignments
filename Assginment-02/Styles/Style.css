@@ -188,51 +188,9 @@ nav a {
     width: 260px;
 }
 
-.card{
+.card {
     background-image: url('../images/Rectangle\ 4.png');
-    height:  350px;
-    width: 280px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(240, 122, 141);
-}
-.card-1{
-    background-image: url('../images/Rectangle\ 5.png');
-    height:  350px;
-    width: 280px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(240, 122, 141);
-}
-.card-2{
-    background-image: url('../images/Rectangle\ 6.png');
-    height:  350px;
-    width: 280px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(240, 122, 141);
-}
-.card-3{
-    background-image: url('../images/Rectangle\ 7.png');
-    height:  350px;
+    height: 350px;
     width: 280px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -245,51 +203,105 @@ nav a {
     color: rgb(240, 122, 141);
 }
 
-.playContainer{
+.card-1 {
+    background-image: url('../images/Rectangle\ 5.png');
+    height: 350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+
+.card-2 {
+    background-image: url('../images/Rectangle\ 6.png');
+    height: 350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+
+.card-3 {
+    background-image: url('../images/Rectangle\ 7.png');
+    height: 350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+
+.playContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     display: none;
 }
-.btn{
+
+.btn {
     background: none;
     border: none;
     border-radius: 50%;
     margin-left: 20px;
-    
+
 }
+
 /* .btn:hover{
     display: flex;
 } */
-.play{
+.play {
     font-size: 40px;
     color: white;
 
 }
 
-.card:hover{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 4.png');
+.card:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 4.png');
 }
-.card-1:hover{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 5.png');
+
+.card-1:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 5.png');
 }
-.card-2:hover{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 6.png');
+
+.card-2:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 6.png');
 }
-.card-3:hover{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 7.png');
+
+.card-3:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/Rectangle\ 7.png');
 }
-.card:hover .playContainer{
+
+.card:hover .playContainer {
     display: block;
 }
-.card-1:hover .playContainer{
+
+.card-1:hover .playContainer {
     display: block;
 }
-.card-2:hover .playContainer{
+
+.card-2:hover .playContainer {
     display: block;
 }
-.card-3:hover .playContainer{
+
+.card-3:hover .playContainer {
     display: block;
 }
 
@@ -303,7 +315,8 @@ nav a {
 .online-img {
     height: 300px;
 }
-.cartoon-pause{
+
+.cartoon-pause {
     background-color: #727276;
     width: 300px;
     height: 300px;
@@ -311,7 +324,8 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-.cartoon-pause img{
+
+.cartoon-pause img {
     height: 30px;
     width: 30px;
     border-radius: 20px;
@@ -320,7 +334,7 @@ nav a {
 /* Anothe section start from here  */
 .anime {
     display: flex;
-    /* height: auto; */
+    /* flex-direction: column; */
     gap: 150px;
     padding: 0px 160px;
 }
@@ -340,7 +354,7 @@ nav a {
 }
 
 .anime-contant {
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 
 /* Cartoon-Icon section start from here */
@@ -400,8 +414,9 @@ footer {
 
 .footer-context {
     display: flex;
-    gap: 65px;
-    padding: 20px 0;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
 }
 
 .footer-icon img {
@@ -410,7 +425,7 @@ footer {
     margin-right: 40px;
 }
 
-.footer-icon button{
+.footer-icon button {
     background: none;
     border: none;
 }
@@ -435,6 +450,72 @@ footer {
 
 
 /* Media query section */
+/* For tablet device */
+/* ------------------------------------------------- */
+/* ---------------------Tab Media query---------------------- */
+/* ----------------------------------------------------------- */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav-section {
+        margin: 10px;
+
+    }
+    .banner{
+        gap: 0;
+    }
+    .banner-contant {
+        width: 350px;
+        height: 400px;
+        padding: 0px 57px 0 70px;
+        text-align: left;
+    }
+    .banner-contant p {
+        font-size: 32px;
+    }
+
+    .banner-contant h1 {
+        font-size: 60px;
+    }
+    .para {
+        font-size: 12px;
+    }
+    .button, .non-button{
+        font-size: 14px;
+        padding: 16px;
+    }
+
+    .banner-img img {
+        width: 85%;
+        height: 82%;
+        padding:70px 0 0 30px;
+    }
+    .cartoon-card {
+        padding: 0 10px ;
+        text-align: center;
+        /* width: 200px;
+        height: 200px; */
+    }
+    /* .playContainer{
+        width: 2000px;
+        height: 200px;
+    } */
+    .online-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+    .anime{
+        display: flex;
+        flex-direction: column-reverse;
+        gap:10px;
+    }
+    footer{
+        padding: 10px;
+    }
+}
+
+
+
 
 /* Media query for Mobile device  */
 @media screen and (max-width:576px) {
@@ -482,11 +563,7 @@ footer {
         font-size: 60px;
     }
 
-    .button {
-        font-size: 12px;
-    }
-
-    .non-button {
+    .button, .non-button{
         font-size: 12px;
     }
 
