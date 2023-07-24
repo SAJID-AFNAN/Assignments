@@ -154,7 +154,7 @@ nav a {
 /* Online games section start from here */
 .online-games {
     text-align: center;
-    padding: 100px 240px 100px 240px;
+    padding: 100px 100px 100px 100px;
 }
 
 .online-head {
@@ -184,12 +184,137 @@ nav a {
 
 .cartoon-card {
     text-align: left;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     width: 260px;
 }
 
+.card{
+    background-image: url('../images/Rectangle\ 4.png');
+    height:  350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+.card-1{
+    background-image: url('../images/Rectangle\ 5.png');
+    height:  350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+.card-2{
+    background-image: url('../images/Rectangle\ 6.png');
+    height:  350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+.card-3{
+    background-image: url('../images/Rectangle\ 7.png');
+    height:  350px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 122, 141);
+}
+
+.playContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.btn{
+    background: none;
+    border: none;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
+/* .btn:hover{
+    display: flex;
+} */
+.play{
+    font-size: 40px;
+    color: white;
+
+}
+
+.card:hover{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 4.png');
+}
+.card-1:hover{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 5.png');
+}
+.card-2:hover{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 6.png');
+}
+.card-3:hover{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%),url('../images/Rectangle\ 7.png');
+}
+.card:hover .playContainer{
+    display: block;
+}
+.card-1:hover .playContainer{
+    display: block;
+}
+.card-2:hover .playContainer{
+    display: block;
+}
+.card-3:hover .playContainer{
+    display: block;
+}
+
+
+/* .card:hover{
+    z-index: 1;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%)url('../images/Rectangle\ 4.png');
+    
+} */
+
 .online-img {
     height: 300px;
+}
+.cartoon-pause{
+    background-color: #727276;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.cartoon-pause img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
 }
 
 /* Anothe section start from here  */
@@ -282,6 +407,11 @@ footer {
     width: 40px;
     height: 40px;
     margin-right: 40px;
+}
+
+.footer-icon button{
+    background: none;
+    border: none;
 }
 
 .footer-text {
